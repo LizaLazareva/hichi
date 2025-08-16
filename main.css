@@ -1,0 +1,38 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+/* Шапка сайта */
+header {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Навигация */
+nav {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: coral
